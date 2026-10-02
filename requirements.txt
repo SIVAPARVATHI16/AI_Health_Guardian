@@ -1,0 +1,17 @@
+streamlit>=1.40,<2
+numpy>=1.26,<2
+pandas>=2.2,<3
+scikit-learn>=1.5,<2
+joblib>=1.4,<2
+Pillow>=10,<12
+plotly>=5.20,<7
+SpeechRecognition>=3.10,<4
+requests>=2.31,<3
+streamlit-geolocation==0.0.7
+
+# Optional: only needed if you set a GEMINI_API_KEY to enable Gemini for
+# symptom-extraction assist, chat fallback, and voice transcription (see
+# README). The app runs fully without it -- import is guarded in
+# modules/gemini_assistant.py. Uses the current google-genai SDK (the
+# older google-generativeai package is deprecated).
+google-genai>=0.7,<2
