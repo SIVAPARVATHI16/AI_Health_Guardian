@@ -1,0 +1,1393 @@
+{
+  "session_id": "20260927_193147_39a7c9",
+  "name": "august",
+  "started": "2026-09-27 19:31",
+  "disease_context": "Unknown",
+  "status": "active",
+  "daily_log": [
+    {
+      "timestamp": "2026-09-27 19:42",
+      "severity": 7,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.904,
+      "health_score": 58,
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-27 19:42",
+      "severity": 3,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.904,
+      "health_score": 82,
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-27 19:42",
+      "severity": 9,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.904,
+      "health_score": 46,
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-27 19:42",
+      "severity": 6,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.904,
+      "health_score": 64,
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-27 19:45",
+      "severity": 9,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.904,
+      "health_score": 46,
+      "notes": "felt bad after lunch"
+    },
+    {
+      "timestamp": "2026-09-28 07:11",
+      "severity": 6,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.5095,
+      "health_score": 64,
+      "notes": ""
+    }
+  ],
+  "symptom_history": [
+    {
+      "timestamp": "2026-09-27T19:32:16",
+      "result": {
+        "top_diseases": [
+          {
+            "disease": "Typhoid",
+            "probability": 0.169
+          },
+          {
+            "disease": "Meningitis Risk",
+            "probability": 0.127
+          },
+          {
+            "disease": "Food Poisoning",
+            "probability": 0.056
+          }
+        ],
+        "risk_level": "High",
+        "risk_probabilities": {
+          "High": 0.485,
+          "Low": 0.075,
+          "Medium": 0.44
+        },
+        "matched_symptom_count": 4,
+        "severity_detected": false,
+        "severity_source": "ML model",
+        "risk_model_probability": 0.485,
+        "severity_guidance": {
+          "display_level": "High Risk",
+          "emoji": "\ud83d\udd34",
+          "description": "A potentially urgent warning pattern was detected from the information provided.",
+          "examples": "Difficulty breathing, significant bleeding, blue lips/face, severe chest pain, confusion, fainting, or rapidly worsening symptoms.",
+          "action": "Seek urgent medical evaluation. If there is severe breathing difficulty, blue lips/face, major bleeding, loss of consciousness, or another emergency sign, contact local emergency services now.",
+          "reason": "Level estimated from the machine-learning symptom pattern; no explicit severity override was triggered.",
+          "is_cough_guide": false,
+          "guide": {
+            "Low": {
+              "display": "Low Risk",
+              "examples": "Mild or occasional symptoms; minor irritation; no breathing difficulty or other emergency warning signs.",
+              "action": "Monitor symptoms, rest and hydrate as appropriate. If symptoms persist, worsen, or new warning signs appear, seek medical advice."
+            },
+            "Medium": {
+              "display": "Moderate Risk",
+              "examples": "Persistent/frequent symptoms, fever with symptoms, wheezing, chest discomfort, or symptoms lasting several days.",
+              "action": "Monitor closely and consider contacting a qualified healthcare professional, particularly if symptoms are worsening or persistent."
+            },
+            "High": {
+              "display": "High Risk",
+              "examples": "Difficulty breathing, significant bleeding, blue lips/face, severe chest pain, confusion, fainting, or rapidly worsening symptoms.",
+              "action": "Seek urgent medical evaluation. If there is severe breathing difficulty, blue lips/face, major bleeding, loss of consciousness, or another emergency sign, contact local emergency services now."
+            }
+          },
+          "detected_high_signals": [],
+          "detected_medium_signals": [],
+          "detected_low_signals": []
+        },
+        "denied_symptoms": [],
+        "followup_questions": [],
+        "low_confidence": true,
+        "severity": null
+      }
+    },
+    {
+      "timestamp": "2026-09-27T19:32:54",
+      "result": {
+        "top_diseases": [
+          {
+            "disease": "Seasonal Flu",
+            "probability": 0.175
+          },
+          {
+            "disease": "Common Cold",
+            "probability": 0.155
+          },
+          {
+            "disease": "Meningitis Risk",
+            "probability": 0.098
+          }
+        ],
+        "risk_level": "Medium",
+        "risk_probabilities": {
+          "High": 0.358,
+          "Low": 0.175,
+          "Medium": 0.467
+        },
+        "matched_symptom_count": 6,
+        "severity_detected": false,
+        "severity_source": "ML model",
+        "risk_model_probability": 0.467,
+        "severity_guidance": {
+          "display_level": "Moderate Risk",
+          "emoji": "\ud83d\udfe1",
+          "description": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+          "examples": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+          "action": "Monitor closely and consider medical advice, especially when the cough is persistent, worsening, or accompanied by fever/wheezing.",
+          "reason": "Level estimated from the machine-learning symptom pattern; no explicit severity override was triggered.",
+          "is_cough_guide": true,
+          "guide": {
+            "Low": {
+              "display": "Low Risk",
+              "examples": "Mild dry cough, occasional cough, or cough from minor throat irritation; no fever or breathing difficulty.",
+              "action": "Monitor the cough and watch for fever, breathing difficulty, blood, chest pain, or worsening symptoms."
+            },
+            "Medium": {
+              "display": "Moderate Risk",
+              "examples": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+              "action": "Monitor closely and consider medical advice, especially when the cough is persistent, worsening, or accompanied by fever/wheezing."
+            },
+            "High": {
+              "display": "High Risk",
+              "examples": "Cough with difficulty breathing, significant blood, blue lips/face, severe chest pain, confusion, or rapidly worsening symptoms.",
+              "action": "Seek urgent medical evaluation. Severe breathing difficulty, blue lips/face, significant bleeding, confusion, or rapidly worsening symptoms require urgent/emergency attention."
+            }
+          },
+          "detected_high_signals": [],
+          "detected_medium_signals": [],
+          "detected_low_signals": []
+        },
+        "denied_symptoms": [],
+        "followup_questions": [],
+        "low_confidence": true,
+        "severity": null
+      }
+    },
+    {
+      "timestamp": "2026-09-27T19:32:56",
+      "result": {
+        "top_diseases": [
+          {
+            "disease": "Seasonal Flu",
+            "probability": 0.175
+          },
+          {
+            "disease": "Common Cold",
+            "probability": 0.155
+          },
+          {
+            "disease": "Meningitis Risk",
+            "probability": 0.098
+          }
+        ],
+        "risk_level": "Medium",
+        "risk_probabilities": {
+          "High": 0.358,
+          "Low": 0.175,
+          "Medium": 0.467
+        },
+        "matched_symptom_count": 6,
+        "severity_detected": false,
+        "severity_source": "ML model",
+        "risk_model_probability": 0.467,
+        "severity_guidance": {
+          "display_level": "Moderate Risk",
+          "emoji": "\ud83d\udfe1",
+          "description": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+          "examples": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+          "action": "Monitor closely and consider medical advice, especially when the cough is persistent, worsening, or accompanied by fever/wheezing.",
+          "reason": "Level estimated from the machine-learning symptom pattern; no explicit severity override was triggered.",
+          "is_cough_guide": true,
+          "guide": {
+            "Low": {
+              "display": "Low Risk",
+              "examples": "Mild dry cough, occasional cough, or cough from minor throat irritation; no fever or breathing difficulty.",
+              "action": "Monitor the cough and watch for fever, breathing difficulty, blood, chest pain, or worsening symptoms."
+            },
+            "Medium": {
+              "display": "Moderate Risk",
+              "examples": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+              "action": "Monitor closely and consider medical advice, especially when the cough is persistent, worsening, or accompanied by fever/wheezing."
+            },
+            "High": {
+              "display": "High Risk",
+              "examples": "Cough with difficulty breathing, significant blood, blue lips/face, severe chest pain, confusion, or rapidly worsening symptoms.",
+              "action": "Seek urgent medical evaluation. Severe breathing difficulty, blue lips/face, significant bleeding, confusion, or rapidly worsening symptoms require urgent/emergency attention."
+            }
+          },
+          "detected_high_signals": [],
+          "detected_medium_signals": [],
+          "detected_low_signals": []
+        },
+        "denied_symptoms": [],
+        "followup_questions": [],
+        "low_confidence": true,
+        "severity": null
+      }
+    },
+    {
+      "timestamp": "2026-09-27T19:37:24",
+      "result": {
+        "top_diseases": [
+          {
+            "disease": "Typhoid",
+            "probability": 0.169
+          },
+          {
+            "disease": "Meningitis Risk",
+            "probability": 0.127
+          },
+          {
+            "disease": "Food Poisoning",
+            "probability": 0.056
+          }
+        ],
+        "risk_level": "High",
+        "risk_probabilities": {
+          "High": 0.485,
+          "Low": 0.075,
+          "Medium": 0.44
+        },
+        "matched_symptom_count": 4,
+        "severity_detected": false,
+        "severity_source": "ML model",
+        "risk_model_probability": 0.485,
+        "severity_guidance": {
+          "display_level": "High Risk",
+          "emoji": "\ud83d\udd34",
+          "description": "A potentially urgent warning pattern was detected from the information provided.",
+          "examples": "Difficulty breathing, significant bleeding, blue lips/face, severe chest pain, confusion, fainting, or rapidly worsening symptoms.",
+          "action": "Seek urgent medical evaluation. If there is severe breathing difficulty, blue lips/face, major bleeding, loss of consciousness, or another emergency sign, contact local emergency services now.",
+          "reason": "Level estimated from the machine-learning symptom pattern; no explicit severity override was triggered.",
+          "is_cough_guide": false,
+          "guide": {
+            "Low": {
+              "display": "Low Risk",
+              "examples": "Mild or occasional symptoms; minor irritation; no breathing difficulty or other emergency warning signs.",
+              "action": "Monitor symptoms, rest and hydrate as appropriate. If symptoms persist, worsen, or new warning signs appear, seek medical advice."
+            },
+            "Medium": {
+              "display": "Moderate Risk",
+              "examples": "Persistent/frequent symptoms, fever with symptoms, wheezing, chest discomfort, or symptoms lasting several days.",
+              "action": "Monitor closely and consider contacting a qualified healthcare professional, particularly if symptoms are worsening or persistent."
+            },
+            "High": {
+              "display": "High Risk",
+              "examples": "Difficulty breathing, significant bleeding, blue lips/face, severe chest pain, confusion, fainting, or rapidly worsening symptoms.",
+              "action": "Seek urgent medical evaluation. If there is severe breathing difficulty, blue lips/face, major bleeding, loss of consciousness, or another emergency sign, contact local emergency services now."
+            }
+          },
+          "detected_high_signals": [],
+          "detected_medium_signals": [],
+          "detected_low_signals": []
+        },
+        "denied_symptoms": [],
+        "followup_questions": [],
+        "low_confidence": true,
+        "severity": null
+      }
+    },
+    {
+      "timestamp": "2026-09-27T19:58:44",
+      "result": {
+        "top_diseases": [
+          {
+            "disease": "Typhoid",
+            "probability": 0.188
+          },
+          {
+            "disease": "Meningitis Risk",
+            "probability": 0.074
+          },
+          {
+            "disease": "Malaria",
+            "probability": 0.059
+          }
+        ],
+        "risk_level": "Medium",
+        "risk_probabilities": {
+          "High": 0.393,
+          "Low": 0.132,
+          "Medium": 0.474
+        },
+        "matched_symptom_count": 3,
+        "severity_detected": false,
+        "severity_source": "ML model",
+        "risk_model_probability": 0.474,
+        "severity_guidance": {
+          "display_level": "Moderate Risk",
+          "emoji": "\ud83d\udfe1",
+          "description": "Symptoms may need closer monitoring or medical advice, especially if they persist or become more severe.",
+          "examples": "Persistent/frequent symptoms, fever with symptoms, wheezing, chest discomfort, or symptoms lasting several days.",
+          "action": "Monitor closely and consider contacting a qualified healthcare professional, particularly if symptoms are worsening or persistent.",
+          "reason": "Level estimated from the machine-learning symptom pattern; no explicit severity override was triggered.",
+          "is_cough_guide": false,
+          "guide": {
+            "Low": {
+              "display": "Low Risk",
+              "examples": "Mild or occasional symptoms; minor irritation; no breathing difficulty or other emergency warning signs.",
+              "action": "Monitor symptoms, rest and hydrate as appropriate. If symptoms persist, worsen, or new warning signs appear, seek medical advice."
+            },
+            "Medium": {
+              "display": "Moderate Risk",
+              "examples": "Persistent/frequent symptoms, fever with symptoms, wheezing, chest discomfort, or symptoms lasting several days.",
+              "action": "Monitor closely and consider contacting a qualified healthcare professional, particularly if symptoms are worsening or persistent."
+            },
+            "High": {
+              "display": "High Risk",
+              "examples": "Difficulty breathing, significant bleeding, blue lips/face, severe chest pain, confusion, fainting, or rapidly worsening symptoms.",
+              "action": "Seek urgent medical evaluation. If there is severe breathing difficulty, blue lips/face, major bleeding, loss of consciousness, or another emergency sign, contact local emergency services now."
+            }
+          },
+          "detected_high_signals": [],
+          "detected_medium_signals": [],
+          "detected_low_signals": []
+        },
+        "denied_symptoms": [],
+        "followup_questions": [],
+        "low_confidence": true,
+        "severity": null
+      }
+    },
+    {
+      "timestamp": "2026-09-27T19:59:01",
+      "result": {
+        "top_diseases": [
+          {
+            "disease": "Common Cold",
+            "probability": 0.301
+          },
+          {
+            "disease": "Typhoid",
+            "probability": 0.112
+          },
+          {
+            "disease": "Seasonal Flu",
+            "probability": 0.096
+          }
+        ],
+        "risk_level": "Medium",
+        "risk_probabilities": {
+          "High": 0.255,
+          "Low": 0.343,
+          "Medium": 0.402
+        },
+        "matched_symptom_count": 6,
+        "severity_detected": false,
+        "severity_source": "ML model",
+        "risk_model_probability": 0.402,
+        "severity_guidance": {
+          "display_level": "Moderate Risk",
+          "emoji": "\ud83d\udfe1",
+          "description": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+          "examples": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+          "action": "Monitor closely and consider medical advice, especially when the cough is persistent, worsening, or accompanied by fever/wheezing.",
+          "reason": "Level estimated from the machine-learning symptom pattern; no explicit severity override was triggered.",
+          "is_cough_guide": true,
+          "guide": {
+            "Low": {
+              "display": "Low Risk",
+              "examples": "Mild dry cough, occasional cough, or cough from minor throat irritation; no fever or breathing difficulty.",
+              "action": "Monitor the cough and watch for fever, breathing difficulty, blood, chest pain, or worsening symptoms."
+            },
+            "Medium": {
+              "display": "Moderate Risk",
+              "examples": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+              "action": "Monitor closely and consider medical advice, especially when the cough is persistent, worsening, or accompanied by fever/wheezing."
+            },
+            "High": {
+              "display": "High Risk",
+              "examples": "Cough with difficulty breathing, significant blood, blue lips/face, severe chest pain, confusion, or rapidly worsening symptoms.",
+              "action": "Seek urgent medical evaluation. Severe breathing difficulty, blue lips/face, significant bleeding, confusion, or rapidly worsening symptoms require urgent/emergency attention."
+            }
+          },
+          "detected_high_signals": [],
+          "detected_medium_signals": [],
+          "detected_low_signals": []
+        },
+        "denied_symptoms": [],
+        "followup_questions": [],
+        "low_confidence": true,
+        "severity": null
+      }
+    },
+    {
+      "timestamp": "2026-09-28T07:07:13",
+      "result": {
+        "top_diseases": [
+          {
+            "disease": "Seasonal Flu",
+            "probability": 0.176
+          },
+          {
+            "disease": "Common Cold",
+            "probability": 0.166
+          },
+          {
+            "disease": "Typhoid",
+            "probability": 0.113
+          }
+        ],
+        "risk_level": "Medium",
+        "risk_probabilities": {
+          "High": 0.277,
+          "Low": 0.217,
+          "Medium": 0.506
+        },
+        "matched_symptom_count": 5,
+        "severity_detected": false,
+        "severity_source": "ML model",
+        "risk_model_probability": 0.506,
+        "severity_guidance": {
+          "display_level": "Moderate Risk",
+          "emoji": "\ud83d\udfe1",
+          "description": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+          "examples": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+          "action": "Monitor closely and consider medical advice, especially when the cough is persistent, worsening, or accompanied by fever/wheezing.",
+          "reason": "Level estimated from the machine-learning symptom pattern; no explicit severity override was triggered.",
+          "is_cough_guide": true,
+          "guide": {
+            "Low": {
+              "display": "Low Risk",
+              "examples": "Mild dry cough, occasional cough, or cough from minor throat irritation; no fever or breathing difficulty.",
+              "action": "Monitor the cough and watch for fever, breathing difficulty, blood, chest pain, or worsening symptoms."
+            },
+            "Medium": {
+              "display": "Moderate Risk",
+              "examples": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+              "action": "Monitor closely and consider medical advice, especially when the cough is persistent, worsening, or accompanied by fever/wheezing."
+            },
+            "High": {
+              "display": "High Risk",
+              "examples": "Cough with difficulty breathing, significant blood, blue lips/face, severe chest pain, confusion, or rapidly worsening symptoms.",
+              "action": "Seek urgent medical evaluation. Severe breathing difficulty, blue lips/face, significant bleeding, confusion, or rapidly worsening symptoms require urgent/emergency attention."
+            }
+          },
+          "detected_high_signals": [],
+          "detected_medium_signals": [],
+          "detected_low_signals": []
+        },
+        "denied_symptoms": [],
+        "followup_questions": [],
+        "low_confidence": true,
+        "severity": null
+      }
+    }
+  ],
+  "image_history": [
+    {
+      "image_id": "20260927_193323_58cd89",
+      "timestamp": "2026-09-27T19:33:23",
+      "image_path": "skin_images\\20260927_193147_39a7c9\\20260927_193323_58cd89.jpg",
+      "analysis_version": "v7_visual_region_compare",
+      "previous_image_id": null,
+      "analysis": {
+        "timestamp": "2026-09-27T19:33:23",
+        "predicted_class": "healthy_skin",
+        "display_label": "Healthy / Normal",
+        "confidence": 0.904,
+        "certainty": 0.7121,
+        "all_probs": {
+          "healing_rash": 0.096,
+          "healthy_skin": 0.904,
+          "inflamed_rash": 0.0
+        },
+        "visual_metrics": {
+          "brightness": 0.75675,
+          "contrast": 0.19334,
+          "redness_index": 0.08858,
+          "warm_pixel_fraction": 0.47154,
+          "texture_index": 0.00823,
+          "sharpness": 0.00164,
+          "width": 900,
+          "height": 900,
+          "aspect_ratio": 1.0,
+          "affected_region": {
+            "affected_area_pct": 1.2912,
+            "affected_area_image_pct": 0.5524,
+            "affected_pixel_count": 362,
+            "skin_pixel_count": 28035,
+            "region_detected": true,
+            "region_confidence": 0.861,
+            "region_bbox_norm": [
+              0.3412,
+              0.4784,
+              0.4471,
+              0.5608
+            ],
+            "region_center_norm": [
+              0.3924,
+              0.518
+            ],
+            "region_mean_red_excess": 0.39469,
+            "region_mean_anomaly": 0.18944,
+            "region_compactness": 0.5877,
+            "method": "local_redness_darkness_compact_region"
+          },
+          "analysis_version": "v7-visible-region-v1"
+        },
+        "model_note": "Demo CNN trained on synthetic skin images; not a clinical diagnostic model.",
+        "analysis_version": "v7-visible-region-v1"
+      },
+      "comparison": null
+    },
+    {
+      "image_id": "20260927_193336_b69c18",
+      "timestamp": "2026-09-27T19:33:36",
+      "image_path": "skin_images\\20260927_193147_39a7c9\\20260927_193336_b69c18.jpg",
+      "analysis_version": "v7_visual_region_compare",
+      "previous_image_id": "20260927_193323_58cd89",
+      "analysis": {
+        "timestamp": "2026-09-27T19:33:35",
+        "predicted_class": "healthy_skin",
+        "display_label": "Healthy / Normal",
+        "confidence": 0.904,
+        "certainty": 0.7121,
+        "all_probs": {
+          "healing_rash": 0.096,
+          "healthy_skin": 0.904,
+          "inflamed_rash": 0.0
+        },
+        "visual_metrics": {
+          "brightness": 0.75675,
+          "contrast": 0.19334,
+          "redness_index": 0.08858,
+          "warm_pixel_fraction": 0.47154,
+          "texture_index": 0.00823,
+          "sharpness": 0.00164,
+          "width": 900,
+          "height": 900,
+          "aspect_ratio": 1.0,
+          "affected_region": {
+            "affected_area_pct": 1.2912,
+            "affected_area_image_pct": 0.5524,
+            "affected_pixel_count": 362,
+            "skin_pixel_count": 28035,
+            "region_detected": true,
+            "region_confidence": 0.861,
+            "region_bbox_norm": [
+              0.3412,
+              0.4784,
+              0.4471,
+              0.5608
+            ],
+            "region_center_norm": [
+              0.3924,
+              0.518
+            ],
+            "region_mean_red_excess": 0.39469,
+            "region_mean_anomaly": 0.18944,
+            "region_compactness": 0.5877,
+            "method": "local_redness_darkness_compact_region"
+          },
+          "analysis_version": "v7-visible-region-v1"
+        },
+        "model_note": "Demo CNN trained on synthetic skin images; not a clinical diagnostic model.",
+        "analysis_version": "v7-visible-region-v1"
+      },
+      "comparison": {
+        "comparison_version": "v7-visible-region-v1",
+        "trend": "Stable",
+        "confidence": 0.698,
+        "message": "No consistent enough visible-region or supporting visual change was detected.",
+        "reasons": [
+          "Photo comparability: good",
+          "direct photo comparison found little localized visual change",
+          "visible affected-region estimate today: 1.29% of detected skin area",
+          "affected-region change: +0.00 percentage points (+0% vs previous)",
+          "CNN probability-weighted visual score changed only slightly",
+          "CNN class: Healthy / Normal -> Healthy / Normal"
+        ],
+        "previous_class": "healthy_skin",
+        "current_class": "healthy_skin",
+        "previous_score": 96.16,
+        "current_score": 96.16,
+        "score_delta": 0.0,
+        "region_comparison_available": true,
+        "previous_affected_area_pct": 1.2912,
+        "current_affected_area_pct": 1.2912,
+        "affected_area_delta_pp": 0.0,
+        "affected_area_relative_change_pct": 0.0,
+        "previous_region_confidence": 0.861,
+        "current_region_confidence": 0.861,
+        "region_red_delta": 0.0,
+        "redness_delta": 0.0,
+        "warm_pixel_fraction_delta": 0.0,
+        "texture_delta": 0.0,
+        "direct_change": {
+          "changed_region_fraction": 0.0,
+          "changed_region_confidence": 0.35,
+          "changed_region_red_delta": 0.0,
+          "changed_region_dark_delta": 0.0,
+          "threshold": 0.075,
+          "method": "normalized_redness_brightness_local_difference"
+        },
+        "comparability": 1.0
+      }
+    },
+    {
+      "image_id": "20260927_193346_d400e7",
+      "timestamp": "2026-09-27T19:33:46",
+      "image_path": "skin_images\\20260927_193147_39a7c9\\20260927_193346_d400e7.jpg",
+      "analysis_version": "v7_visual_region_compare",
+      "previous_image_id": "20260927_193336_b69c18",
+      "analysis": {
+        "timestamp": "2026-09-27T19:33:46",
+        "predicted_class": "healthy_skin",
+        "display_label": "Healthy / Normal",
+        "confidence": 0.916,
+        "certainty": 0.7374,
+        "all_probs": {
+          "healing_rash": 0.084,
+          "healthy_skin": 0.916,
+          "inflamed_rash": 0.0
+        },
+        "visual_metrics": {
+          "brightness": 0.76083,
+          "contrast": 0.19864,
+          "redness_index": 0.09626,
+          "warm_pixel_fraction": 0.46765,
+          "texture_index": 0.0093,
+          "sharpness": 0.00211,
+          "width": 1254,
+          "height": 1254,
+          "aspect_ratio": 1.0,
+          "affected_region": {
+            "affected_area_pct": 0.6306,
+            "affected_area_image_pct": 0.2884,
+            "affected_pixel_count": 189,
+            "skin_pixel_count": 29970,
+            "region_detected": true,
+            "region_confidence": 0.778,
+            "region_bbox_norm": [
+              0.3725,
+              0.4824,
+              0.4353,
+              0.549
+            ],
+            "region_center_norm": [
+              0.4077,
+              0.5153
+            ],
+            "region_mean_red_excess": 0.33464,
+            "region_mean_anomaly": 0.16172,
+            "region_compactness": 0.6176,
+            "method": "local_redness_darkness_compact_region"
+          },
+          "analysis_version": "v7-visible-region-v1"
+        },
+        "model_note": "Demo CNN trained on synthetic skin images; not a clinical diagnostic model.",
+        "analysis_version": "v7-visible-region-v1"
+      },
+      "comparison": {
+        "comparison_version": "v7-visible-region-v1",
+        "trend": "Improving",
+        "confidence": 0.692,
+        "message": "The visible affected-region estimate decreased from 1.29% to 0.63% of detected skin area, with supporting visual/model evidence.",
+        "reasons": [
+          "Photo comparability: good",
+          "direct photo comparison found 4.60% of common skin area changed visibly",
+          "visible affected-region estimate today: 0.63% of detected skin area",
+          "affected-region change: -0.66 percentage points (-51% vs previous)",
+          "affected-region redness signal decreased",
+          "CNN probability-weighted visual score changed only slightly",
+          "CNN class: Healthy / Normal -> Healthy / Normal"
+        ],
+        "previous_class": "healthy_skin",
+        "current_class": "healthy_skin",
+        "previous_score": 96.16,
+        "current_score": 96.64,
+        "score_delta": 0.48,
+        "region_comparison_available": true,
+        "previous_affected_area_pct": 1.2912,
+        "current_affected_area_pct": 0.6306,
+        "affected_area_delta_pp": -0.6606,
+        "affected_area_relative_change_pct": -51.16,
+        "previous_region_confidence": 0.861,
+        "current_region_confidence": 0.778,
+        "region_red_delta": -0.06005,
+        "redness_delta": 0.00768,
+        "warm_pixel_fraction_delta": -0.00389,
+        "texture_delta": 0.00107,
+        "direct_change": {
+          "changed_region_fraction": 0.04604,
+          "changed_region_confidence": 0.785,
+          "changed_region_red_delta": -0.08864,
+          "changed_region_dark_delta": -0.22098,
+          "threshold": 0.075,
+          "method": "normalized_redness_brightness_local_difference"
+        },
+        "comparability": 0.983
+      }
+    },
+    {
+      "image_id": "20260927_193417_af8908",
+      "timestamp": "2026-09-27T19:34:17",
+      "image_path": "skin_images\\20260927_193147_39a7c9\\20260927_193417_af8908.jpg",
+      "analysis_version": "v7_visual_region_compare",
+      "previous_image_id": "20260927_193346_d400e7",
+      "analysis": {
+        "timestamp": "2026-09-27T19:34:17",
+        "predicted_class": "healthy_skin",
+        "display_label": "Healthy / Normal",
+        "confidence": 0.904,
+        "certainty": 0.7121,
+        "all_probs": {
+          "healing_rash": 0.096,
+          "healthy_skin": 0.904,
+          "inflamed_rash": 0.0
+        },
+        "visual_metrics": {
+          "brightness": 0.75675,
+          "contrast": 0.19334,
+          "redness_index": 0.08858,
+          "warm_pixel_fraction": 0.47154,
+          "texture_index": 0.00823,
+          "sharpness": 0.00164,
+          "width": 900,
+          "height": 900,
+          "aspect_ratio": 1.0,
+          "affected_region": {
+            "affected_area_pct": 1.2912,
+            "affected_area_image_pct": 0.5524,
+            "affected_pixel_count": 362,
+            "skin_pixel_count": 28035,
+            "region_detected": true,
+            "region_confidence": 0.861,
+            "region_bbox_norm": [
+              0.3412,
+              0.4784,
+              0.4471,
+              0.5608
+            ],
+            "region_center_norm": [
+              0.3924,
+              0.518
+            ],
+            "region_mean_red_excess": 0.39469,
+            "region_mean_anomaly": 0.18944,
+            "region_compactness": 0.5877,
+            "method": "local_redness_darkness_compact_region"
+          },
+          "analysis_version": "v7-visible-region-v1"
+        },
+        "model_note": "Demo CNN trained on synthetic skin images; not a clinical diagnostic model.",
+        "analysis_version": "v7-visible-region-v1"
+      },
+      "comparison": {
+        "comparison_version": "v7-visible-region-v1",
+        "trend": "Worsening",
+        "confidence": 0.686,
+        "message": "The visible affected-region estimate increased from 0.63% to 1.29% of detected skin area. The change is large enough that the broad CNN class alone should not be treated as evidence of stability.",
+        "reasons": [
+          "Photo comparability: good",
+          "direct photo comparison found 4.61% of common skin area changed visibly",
+          "visible affected-region estimate today: 1.29% of detected skin area",
+          "affected-region change: +0.66 percentage points (+105% vs previous)",
+          "affected-region redness signal increased",
+          "CNN probability-weighted visual score changed only slightly",
+          "CNN class: Healthy / Normal -> Healthy / Normal"
+        ],
+        "previous_class": "healthy_skin",
+        "current_class": "healthy_skin",
+        "previous_score": 96.64,
+        "current_score": 96.16,
+        "score_delta": -0.48,
+        "region_comparison_available": true,
+        "previous_affected_area_pct": 0.6306,
+        "current_affected_area_pct": 1.2912,
+        "affected_area_delta_pp": 0.6606,
+        "affected_area_relative_change_pct": 104.76,
+        "previous_region_confidence": 0.778,
+        "current_region_confidence": 0.861,
+        "region_red_delta": 0.06005,
+        "redness_delta": -0.00768,
+        "warm_pixel_fraction_delta": 0.00389,
+        "texture_delta": -0.00107,
+        "direct_change": {
+          "changed_region_fraction": 0.04612,
+          "changed_region_confidence": 0.785,
+          "changed_region_red_delta": 0.08858,
+          "changed_region_dark_delta": 0.22082,
+          "threshold": 0.075,
+          "method": "normalized_redness_brightness_local_difference"
+        },
+        "comparability": 0.983
+      }
+    },
+    {
+      "image_id": "20260927_193931_49e89b",
+      "timestamp": "2026-09-27T19:39:31",
+      "image_path": "skin_images\\20260927_193147_39a7c9\\20260927_193931_49e89b.jpg",
+      "analysis_version": "v7_visual_region_compare",
+      "previous_image_id": "20260927_193417_af8908",
+      "analysis": {
+        "timestamp": "2026-09-27T19:39:31",
+        "predicted_class": "healthy_skin",
+        "display_label": "Healthy / Normal",
+        "confidence": 0.916,
+        "certainty": 0.7374,
+        "all_probs": {
+          "healing_rash": 0.084,
+          "healthy_skin": 0.916,
+          "inflamed_rash": 0.0
+        },
+        "visual_metrics": {
+          "brightness": 0.76083,
+          "contrast": 0.19864,
+          "redness_index": 0.09626,
+          "warm_pixel_fraction": 0.46765,
+          "texture_index": 0.0093,
+          "sharpness": 0.00211,
+          "width": 1254,
+          "height": 1254,
+          "aspect_ratio": 1.0,
+          "affected_region": {
+            "affected_area_pct": 0.6306,
+            "affected_area_image_pct": 0.2884,
+            "affected_pixel_count": 189,
+            "skin_pixel_count": 29970,
+            "region_detected": true,
+            "region_confidence": 0.778,
+            "region_bbox_norm": [
+              0.3725,
+              0.4824,
+              0.4353,
+              0.549
+            ],
+            "region_center_norm": [
+              0.4077,
+              0.5153
+            ],
+            "region_mean_red_excess": 0.33464,
+            "region_mean_anomaly": 0.16172,
+            "region_compactness": 0.6176,
+            "method": "local_redness_darkness_compact_region"
+          },
+          "analysis_version": "v7-visible-region-v1"
+        },
+        "model_note": "Demo CNN trained on synthetic skin images; not a clinical diagnostic model.",
+        "analysis_version": "v7-visible-region-v1"
+      },
+      "comparison": {
+        "comparison_version": "v7-visible-region-v1",
+        "trend": "Improving",
+        "confidence": 0.692,
+        "message": "The visible affected-region estimate decreased from 1.29% to 0.63% of detected skin area, with supporting visual/model evidence.",
+        "reasons": [
+          "Photo comparability: good",
+          "direct photo comparison found 4.60% of common skin area changed visibly",
+          "visible affected-region estimate today: 0.63% of detected skin area",
+          "affected-region change: -0.66 percentage points (-51% vs previous)",
+          "affected-region redness signal decreased",
+          "CNN probability-weighted visual score changed only slightly",
+          "CNN class: Healthy / Normal -> Healthy / Normal"
+        ],
+        "previous_class": "healthy_skin",
+        "current_class": "healthy_skin",
+        "previous_score": 96.16,
+        "current_score": 96.64,
+        "score_delta": 0.48,
+        "region_comparison_available": true,
+        "previous_affected_area_pct": 1.2912,
+        "current_affected_area_pct": 0.6306,
+        "affected_area_delta_pp": -0.6606,
+        "affected_area_relative_change_pct": -51.16,
+        "previous_region_confidence": 0.861,
+        "current_region_confidence": 0.778,
+        "region_red_delta": -0.06005,
+        "redness_delta": 0.00768,
+        "warm_pixel_fraction_delta": -0.00389,
+        "texture_delta": 0.00107,
+        "direct_change": {
+          "changed_region_fraction": 0.04604,
+          "changed_region_confidence": 0.785,
+          "changed_region_red_delta": -0.08864,
+          "changed_region_dark_delta": -0.22098,
+          "threshold": 0.075,
+          "method": "normalized_redness_brightness_local_difference"
+        },
+        "comparability": 0.983
+      }
+    },
+    {
+      "image_id": "20260927_194010_c8ac48",
+      "timestamp": "2026-09-27T19:40:10",
+      "image_path": "skin_images\\20260927_193147_39a7c9\\20260927_194010_c8ac48.jpg",
+      "analysis_version": "v7_visual_region_compare",
+      "previous_image_id": "20260927_193931_49e89b",
+      "analysis": {
+        "timestamp": "2026-09-27T19:40:10",
+        "predicted_class": "healthy_skin",
+        "display_label": "Healthy / Normal",
+        "confidence": 0.904,
+        "certainty": 0.7121,
+        "all_probs": {
+          "healing_rash": 0.096,
+          "healthy_skin": 0.904,
+          "inflamed_rash": 0.0
+        },
+        "visual_metrics": {
+          "brightness": 0.75675,
+          "contrast": 0.19334,
+          "redness_index": 0.08858,
+          "warm_pixel_fraction": 0.47154,
+          "texture_index": 0.00823,
+          "sharpness": 0.00164,
+          "width": 900,
+          "height": 900,
+          "aspect_ratio": 1.0,
+          "affected_region": {
+            "affected_area_pct": 1.2912,
+            "affected_area_image_pct": 0.5524,
+            "affected_pixel_count": 362,
+            "skin_pixel_count": 28035,
+            "region_detected": true,
+            "region_confidence": 0.861,
+            "region_bbox_norm": [
+              0.3412,
+              0.4784,
+              0.4471,
+              0.5608
+            ],
+            "region_center_norm": [
+              0.3924,
+              0.518
+            ],
+            "region_mean_red_excess": 0.39469,
+            "region_mean_anomaly": 0.18944,
+            "region_compactness": 0.5877,
+            "method": "local_redness_darkness_compact_region"
+          },
+          "analysis_version": "v7-visible-region-v1"
+        },
+        "model_note": "Demo CNN trained on synthetic skin images; not a clinical diagnostic model.",
+        "analysis_version": "v7-visible-region-v1"
+      },
+      "comparison": {
+        "comparison_version": "v7-visible-region-v1",
+        "trend": "Worsening",
+        "confidence": 0.686,
+        "message": "The visible affected-region estimate increased from 0.63% to 1.29% of detected skin area. The change is large enough that the broad CNN class alone should not be treated as evidence of stability.",
+        "reasons": [
+          "Photo comparability: good",
+          "direct photo comparison found 4.61% of common skin area changed visibly",
+          "visible affected-region estimate today: 1.29% of detected skin area",
+          "affected-region change: +0.66 percentage points (+105% vs previous)",
+          "affected-region redness signal increased",
+          "CNN probability-weighted visual score changed only slightly",
+          "CNN class: Healthy / Normal -> Healthy / Normal"
+        ],
+        "previous_class": "healthy_skin",
+        "current_class": "healthy_skin",
+        "previous_score": 96.64,
+        "current_score": 96.16,
+        "score_delta": -0.48,
+        "region_comparison_available": true,
+        "previous_affected_area_pct": 0.6306,
+        "current_affected_area_pct": 1.2912,
+        "affected_area_delta_pp": 0.6606,
+        "affected_area_relative_change_pct": 104.76,
+        "previous_region_confidence": 0.778,
+        "current_region_confidence": 0.861,
+        "region_red_delta": 0.06005,
+        "redness_delta": -0.00768,
+        "warm_pixel_fraction_delta": 0.00389,
+        "texture_delta": -0.00107,
+        "direct_change": {
+          "changed_region_fraction": 0.04612,
+          "changed_region_confidence": 0.785,
+          "changed_region_red_delta": 0.08858,
+          "changed_region_dark_delta": 0.22082,
+          "threshold": 0.075,
+          "method": "normalized_redness_brightness_local_difference"
+        },
+        "comparability": 0.983
+      }
+    },
+    {
+      "image_id": "20260928_071048_e0a3df",
+      "timestamp": "2026-09-28T07:10:48",
+      "image_path": "skin_images\\20260927_193147_39a7c9\\20260928_071048_e0a3df.jpg",
+      "analysis_version": "v7_visual_region_compare",
+      "previous_image_id": "20260927_194010_c8ac48",
+      "analysis": {
+        "timestamp": "2026-09-28T07:10:48",
+        "predicted_class": "healthy_skin",
+        "display_label": "Healthy / Normal",
+        "confidence": 0.5095,
+        "certainty": 0.3456,
+        "all_probs": {
+          "healing_rash": 0.4859,
+          "healthy_skin": 0.5095,
+          "inflamed_rash": 0.0046
+        },
+        "visual_metrics": {
+          "brightness": 0.47014,
+          "contrast": 0.12179,
+          "redness_index": 0.09361,
+          "warm_pixel_fraction": 0.70261,
+          "texture_index": 0.00969,
+          "sharpness": 0.00094,
+          "width": 899,
+          "height": 1599,
+          "aspect_ratio": 0.5622,
+          "affected_region": {
+            "affected_area_pct": 0.2256,
+            "affected_area_image_pct": 0.1678,
+            "affected_pixel_count": 110,
+            "skin_pixel_count": 48758,
+            "region_detected": true,
+            "region_confidence": 0.651,
+            "region_bbox_norm": [
+              0.8706,
+              0.5529,
+              0.902,
+              0.6275
+            ],
+            "region_center_norm": [
+              0.8898,
+              0.5923
+            ],
+            "region_mean_red_excess": 0.14779,
+            "region_mean_anomaly": 0.0985,
+            "region_compactness": 0.6111,
+            "method": "local_redness_darkness_compact_region"
+          },
+          "analysis_version": "v7-visible-region-v1"
+        },
+        "model_note": "Demo CNN trained on synthetic skin images; not a clinical diagnostic model.",
+        "analysis_version": "v7-visible-region-v1"
+      },
+      "comparison": {
+        "comparison_version": "v7-visible-region-v1",
+        "trend": "Uncertain",
+        "confidence": 0.222,
+        "message": "The two photos differ substantially in framing/lighting, so the visible-area change is not reliable enough to classify as improvement or worsening.",
+        "reasons": [
+          "Photo comparability: low",
+          "direct photo comparison found 11.25% of common skin area changed visibly",
+          "visible affected-region estimate today: 0.23% of detected skin area",
+          "affected-region change: -1.07 percentage points (-83% vs previous)",
+          "affected-region redness signal decreased",
+          "CNN probability-weighted visual score decreased",
+          "CNN class: Healthy / Normal -> Healthy / Normal"
+        ],
+        "previous_class": "healthy_skin",
+        "current_class": "healthy_skin",
+        "previous_score": 96.16,
+        "current_score": 80.2,
+        "score_delta": -15.96,
+        "region_comparison_available": true,
+        "previous_affected_area_pct": 1.2912,
+        "current_affected_area_pct": 0.2256,
+        "affected_area_delta_pp": -1.0656,
+        "affected_area_relative_change_pct": -82.53,
+        "previous_region_confidence": 0.861,
+        "current_region_confidence": 0.651,
+        "region_red_delta": -0.2469,
+        "redness_delta": 0.00503,
+        "warm_pixel_fraction_delta": 0.23107,
+        "texture_delta": 0.00146,
+        "direct_change": {
+          "changed_region_fraction": 0.11253,
+          "changed_region_confidence": 0.9,
+          "changed_region_red_delta": -0.11988,
+          "changed_region_dark_delta": -0.72761,
+          "threshold": 0.30932,
+          "method": "normalized_redness_brightness_local_difference"
+        },
+        "comparability": 0.364
+      }
+    },
+    {
+      "image_id": "20260928_072059_cfdb27",
+      "timestamp": "2026-09-28T07:20:59",
+      "image_path": "skin_images\\20260927_193147_39a7c9\\20260928_072059_cfdb27.jpg",
+      "analysis_version": "v7_visual_region_compare",
+      "previous_image_id": "20260928_071048_e0a3df",
+      "analysis": {
+        "timestamp": "2026-09-28T07:20:59",
+        "predicted_class": "healthy_skin",
+        "display_label": "Healthy / Normal",
+        "confidence": 0.5095,
+        "certainty": 0.3456,
+        "all_probs": {
+          "healing_rash": 0.4859,
+          "healthy_skin": 0.5095,
+          "inflamed_rash": 0.0046
+        },
+        "visual_metrics": {
+          "brightness": 0.47014,
+          "contrast": 0.12179,
+          "redness_index": 0.09361,
+          "warm_pixel_fraction": 0.70261,
+          "texture_index": 0.00969,
+          "sharpness": 0.00094,
+          "width": 899,
+          "height": 1599,
+          "aspect_ratio": 0.5622,
+          "affected_region": {
+            "affected_area_pct": 0.2256,
+            "affected_area_image_pct": 0.1678,
+            "affected_pixel_count": 110,
+            "skin_pixel_count": 48758,
+            "region_detected": true,
+            "region_confidence": 0.651,
+            "region_bbox_norm": [
+              0.8706,
+              0.5529,
+              0.902,
+              0.6275
+            ],
+            "region_center_norm": [
+              0.8898,
+              0.5923
+            ],
+            "region_mean_red_excess": 0.14779,
+            "region_mean_anomaly": 0.0985,
+            "region_compactness": 0.6111,
+            "method": "local_redness_darkness_compact_region"
+          },
+          "analysis_version": "v7-visible-region-v1"
+        },
+        "model_note": "Demo CNN trained on synthetic skin images; not a clinical diagnostic model.",
+        "analysis_version": "v7-visible-region-v1"
+      },
+      "comparison": {
+        "comparison_version": "v7-visible-region-v1",
+        "trend": "Stable",
+        "confidence": 0.57,
+        "message": "No consistent enough visible-region or supporting visual change was detected.",
+        "reasons": [
+          "Photo comparability: good",
+          "direct photo comparison found little localized visual change",
+          "visible affected-region estimate today: 0.23% of detected skin area",
+          "affected-region change: +0.00 percentage points (+0% vs previous)",
+          "CNN probability-weighted visual score changed only slightly",
+          "CNN class: Healthy / Normal -> Healthy / Normal"
+        ],
+        "previous_class": "healthy_skin",
+        "current_class": "healthy_skin",
+        "previous_score": 80.2,
+        "current_score": 80.2,
+        "score_delta": 0.0,
+        "region_comparison_available": true,
+        "previous_affected_area_pct": 0.2256,
+        "current_affected_area_pct": 0.2256,
+        "affected_area_delta_pp": 0.0,
+        "affected_area_relative_change_pct": 0.0,
+        "previous_region_confidence": 0.651,
+        "current_region_confidence": 0.651,
+        "region_red_delta": 0.0,
+        "redness_delta": 0.0,
+        "warm_pixel_fraction_delta": 0.0,
+        "texture_delta": 0.0,
+        "direct_change": {
+          "changed_region_fraction": 0.0,
+          "changed_region_confidence": 0.35,
+          "changed_region_red_delta": 0.0,
+          "changed_region_dark_delta": 0.0,
+          "threshold": 0.075,
+          "method": "normalized_redness_brightness_local_difference"
+        },
+        "comparability": 1.0
+      }
+    }
+  ],
+  "recovery_history": [
+    {
+      "timestamp": "2026-09-27 19:42",
+      "severity": 7,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.904,
+      "health_score": 58,
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-27 19:42",
+      "severity": 3,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.904,
+      "health_score": 82,
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-27 19:42",
+      "severity": 9,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.904,
+      "health_score": 46,
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-27 19:42",
+      "severity": 6,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.904,
+      "health_score": 64,
+      "notes": ""
+    },
+    {
+      "timestamp": "2026-09-27 19:45",
+      "severity": 9,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.904,
+      "health_score": 46,
+      "notes": "felt bad after lunch"
+    },
+    {
+      "timestamp": "2026-09-28 07:11",
+      "severity": 6,
+      "medicine_taken": true,
+      "image_class": "healthy_skin",
+      "image_confidence": 0.5095,
+      "health_score": 64,
+      "notes": ""
+    }
+  ],
+  "medicines": [
+    {
+      "name": "paracetamol",
+      "times": [],
+      "with_food": "Yes \u2014 after meals",
+      "duration": 5,
+      "added": "2026-09-28"
+    }
+  ],
+  "chat_history": [],
+  "symptom_result": {
+    "top_diseases": [
+      {
+        "disease": "Seasonal Flu",
+        "probability": 0.176
+      },
+      {
+        "disease": "Common Cold",
+        "probability": 0.166
+      },
+      {
+        "disease": "Typhoid",
+        "probability": 0.113
+      }
+    ],
+    "risk_level": "Medium",
+    "risk_probabilities": {
+      "High": 0.277,
+      "Low": 0.217,
+      "Medium": 0.506
+    },
+    "matched_symptom_count": 5,
+    "severity_detected": false,
+    "severity_source": "ML model",
+    "risk_model_probability": 0.506,
+    "severity_guidance": {
+      "display_level": "Moderate Risk",
+      "emoji": "\ud83d\udfe1",
+      "description": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+      "examples": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+      "action": "Monitor closely and consider medical advice, especially when the cough is persistent, worsening, or accompanied by fever/wheezing.",
+      "reason": "Level estimated from the machine-learning symptom pattern; no explicit severity override was triggered.",
+      "is_cough_guide": true,
+      "guide": {
+        "Low": {
+          "display": "Low Risk",
+          "examples": "Mild dry cough, occasional cough, or cough from minor throat irritation; no fever or breathing difficulty.",
+          "action": "Monitor the cough and watch for fever, breathing difficulty, blood, chest pain, or worsening symptoms."
+        },
+        "Medium": {
+          "display": "Moderate Risk",
+          "examples": "Persistent wet/productive cough, frequent coughing, cough with fever, wheezing, chest discomfort, or symptoms lasting several days.",
+          "action": "Monitor closely and consider medical advice, especially when the cough is persistent, worsening, or accompanied by fever/wheezing."
+        },
+        "High": {
+          "display": "High Risk",
+          "examples": "Cough with difficulty breathing, significant blood, blue lips/face, severe chest pain, confusion, or rapidly worsening symptoms.",
+          "action": "Seek urgent medical evaluation. Severe breathing difficulty, blue lips/face, significant bleeding, confusion, or rapidly worsening symptoms require urgent/emergency attention."
+        }
+      },
+      "detected_high_signals": [],
+      "detected_medium_signals": [],
+      "detected_low_signals": []
+    },
+    "denied_symptoms": [],
+    "followup_questions": [],
+    "low_confidence": true,
+    "severity": null
+  },
+  "image_result": {
+    "timestamp": "2026-09-28T07:20:59",
+    "predicted_class": "healthy_skin",
+    "display_label": "Healthy / Normal",
+    "confidence": 0.5095,
+    "certainty": 0.3456,
+    "all_probs": {
+      "healing_rash": 0.4859,
+      "healthy_skin": 0.5095,
+      "inflamed_rash": 0.0046
+    },
+    "visual_metrics": {
+      "brightness": 0.47014,
+      "contrast": 0.12179,
+      "redness_index": 0.09361,
+      "warm_pixel_fraction": 0.70261,
+      "texture_index": 0.00969,
+      "sharpness": 0.00094,
+      "width": 899,
+      "height": 1599,
+      "aspect_ratio": 0.5622,
+      "affected_region": {
+        "affected_area_pct": 0.2256,
+        "affected_area_image_pct": 0.1678,
+        "affected_pixel_count": 110,
+        "skin_pixel_count": 48758,
+        "region_detected": true,
+        "region_confidence": 0.651,
+        "region_bbox_norm": [
+          0.8706,
+          0.5529,
+          0.902,
+          0.6275
+        ],
+        "region_center_norm": [
+          0.8898,
+          0.5923
+        ],
+        "region_mean_red_excess": 0.14779,
+        "region_mean_anomaly": 0.0985,
+        "region_compactness": 0.6111,
+        "method": "local_redness_darkness_compact_region"
+      },
+      "analysis_version": "v7-visible-region-v1"
+    },
+    "model_note": "Demo CNN trained on synthetic skin images; not a clinical diagnostic model.",
+    "analysis_version": "v7-visible-region-v1"
+  }
+}

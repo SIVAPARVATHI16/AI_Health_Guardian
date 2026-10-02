@@ -1,0 +1,10 @@
+{
+  "val_accuracy": 1.0,
+  "val_loss": 0.1367,
+  "classes": [
+    "healing_rash",
+    "healthy_skin",
+    "inflamed_rash"
+  ],
+  "image_size": 128
+}

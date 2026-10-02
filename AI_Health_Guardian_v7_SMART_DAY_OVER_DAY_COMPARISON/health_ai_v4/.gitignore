@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+data/sessions/*.json
+data/user_logs/*.json
+
+# API keys / secrets -- never commit these. Use the .example templates
+# below as the source-controlled reference instead. (Only the specific
+# secrets file is ignored, not the whole .streamlit/ directory, so
+# .streamlit/secrets.toml.example and .streamlit/config.toml, if you add
+# one, still get tracked normally.)
+.streamlit/secrets.toml
+.env
+*.env

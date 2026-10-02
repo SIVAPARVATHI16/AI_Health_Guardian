@@ -1,0 +1,441 @@
+{
+  "fever": [
+    "mild_fever",
+    "high_fever",
+    "prolonged_fever"
+  ],
+  "high fever": [
+    "high_fever"
+  ],
+  "temperature": [
+    "mild_fever",
+    "high_fever"
+  ],
+  "headache": [
+    "headache",
+    "headache_behind_eyes"
+  ],
+  "body pain": [
+    "body_pain",
+    "severe_body_pain"
+  ],
+  "joint pain": [
+    "joint_pain"
+  ],
+  "tired": [
+    "fatigue",
+    "weakness"
+  ],
+  "fatigue": [
+    "fatigue"
+  ],
+  "weak": [
+    "weakness"
+  ],
+  "weakness": [
+    "weakness"
+  ],
+  "cough": [
+    "mild_cough",
+    "cough",
+    "cough_with_phlegm"
+  ],
+  "sore throat": [
+    "sore_throat"
+  ],
+  "runny nose": [
+    "runny_nose"
+  ],
+  "blocked nose": [
+    "congestion"
+  ],
+  "congestion": [
+    "congestion"
+  ],
+  "sneezing": [
+    "sneezing"
+  ],
+  "rash": [
+    "rash",
+    "skin_rash"
+  ],
+  "skin rash": [
+    "skin_rash",
+    "rash"
+  ],
+  "itching": [
+    "itching",
+    "itchy_eyes"
+  ],
+  "vomiting": [
+    "vomiting"
+  ],
+  "nausea": [
+    "nausea"
+  ],
+  "diarrhea": [
+    "diarrhea"
+  ],
+  "loose motion": [
+    "diarrhea"
+  ],
+  "stomach pain": [
+    "stomach_pain",
+    "abdominal_pain",
+    "abdominal_cramps"
+  ],
+  "abdominal pain": [
+    "abdominal_pain"
+  ],
+  "chest pain": [
+    "chest_pain",
+    "chest_discomfort",
+    "chest_tightness"
+  ],
+  "breathlessness": [
+    "breathlessness"
+  ],
+  "shortness of breath": [
+    "breathlessness"
+  ],
+  "wheezing": [
+    "wheezing"
+  ],
+  "dizzy": [
+    "dizziness"
+  ],
+  "dizziness": [
+    "dizziness"
+  ],
+  "blurred vision": [
+    "blurred_vision"
+  ],
+  "burning urination": [
+    "burning_urination"
+  ],
+  "frequent urination": [
+    "frequent_urination"
+  ],
+  "thirst": [
+    "excessive_thirst"
+  ],
+  "weight loss": [
+    "weight_loss"
+  ],
+  "pale skin": [
+    "pale_skin"
+  ],
+  "rapid heartbeat": [
+    "rapid_heartbeat"
+  ],
+  "sweating": [
+    "sweating"
+  ],
+  "sleep trouble": [
+    "sleep_trouble"
+  ],
+  "anxious": [
+    "restlessness",
+    "rapid_heartbeat"
+  ],
+  "restless": [
+    "restlessness"
+  ],
+  "eye redness": [
+    "redness_eyes"
+  ],
+  "watery eyes": [
+    "watery_eyes"
+  ],
+  "facial pain": [
+    "facial_pain"
+  ],
+  "heartburn": [
+    "heartburn"
+  ],
+  "bloating": [
+    "bloating"
+  ],
+  "chills": [
+    "chills"
+  ],
+  "loss of appetite": [
+    "loss_of_appetite"
+  ],
+  "constipation": [
+    "constipation_or_diarrhea"
+  ],
+  "knee pain": [
+    "knee_pain"
+  ],
+  "hand pain": [
+    "hand_pain"
+  ],
+  "wrist pain": [
+    "wrist_pain"
+  ],
+  "shoulder pain": [
+    "shoulder_pain"
+  ],
+  "elbow pain": [
+    "elbow_pain"
+  ],
+  "neck pain": [
+    "neck_pain"
+  ],
+  "back pain": [
+    "back_pain"
+  ],
+  "hip pain": [
+    "hip_pain"
+  ],
+  "ankle pain": [
+    "ankle_pain"
+  ],
+  "foot pain": [
+    "foot_pain"
+  ],
+  "leg pain": [
+    "leg_pain"
+  ],
+  "arm pain": [
+    "arm_pain"
+  ],
+  "finger pain": [
+    "finger_pain"
+  ],
+  "pelvic pain": [
+    "pelvic_pain"
+  ],
+  "muscle pain": [
+    "muscle_pain"
+  ],
+  "stiffness": [
+    "stiffness"
+  ],
+  "numbness": [
+    "numbness"
+  ],
+  "swelling": [
+    "swelling"
+  ],
+  "toe pain": [
+    "foot_pain"
+  ],
+  "heel pain": [
+    "heel_pain"
+  ],
+  "thigh pain": [
+    "leg_pain"
+  ],
+  "calf pain": [
+    "leg_pain"
+  ],
+  "groin pain": [
+    "pelvic_pain"
+  ],
+  "jaw pain": [
+    "facial_pain"
+  ],
+  "rib pain": [
+    "chest_pain"
+  ],
+  "chest wall pain": [
+    "chest_pain"
+  ],
+  "tailbone pain": [
+    "back_pain"
+  ],
+  "plantar fasciitis": [
+    "foot_pain",
+    "heel_pain"
+  ],
+  "achilles tendon pain": [
+    "heel_pain",
+    "leg_pain"
+  ],
+  "rotator cuff pain": [
+    "shoulder_pain"
+  ],
+  "carpal tunnel": [
+    "wrist_pain",
+    "hand_pain",
+    "numbness",
+    "tingling"
+  ],
+  "arthritis pain": [
+    "joint_pain"
+  ],
+  "bone pain": [
+    "body_pain"
+  ],
+  "growing pains": [
+    "leg_pain"
+  ],
+  "spinal stenosis": [
+    "back_pain"
+  ],
+  "herniated disc": [
+    "back_pain"
+  ],
+  "patellofemoral pain": [
+    "knee_pain"
+  ],
+  "morton's neuroma": [
+    "foot_pain"
+  ],
+  "bunion pain": [
+    "foot_pain"
+  ],
+  "hammer toe": [
+    "foot_pain"
+  ],
+  "tmj pain": [
+    "facial_pain"
+  ],
+  "jaw joint pain": [
+    "facial_pain"
+  ],
+  "tension headache": [
+    "headache"
+  ],
+  "cluster headache": [
+    "headache"
+  ],
+  "sinus headache": [
+    "headache",
+    "facial_pain"
+  ],
+  "phantom limb pain": [
+    "body_pain"
+  ],
+  "muscle soreness": [
+    "muscle_pain"
+  ],
+  "muscle cramps": [
+    "muscle_pain",
+    "muscle_spasms"
+  ],
+  "joint stiffness": [
+    "stiffness"
+  ],
+  "morning stiffness": [
+    "morning_stiffness"
+  ],
+  "limited range of motion": [
+    "limited_range_of_motion"
+  ],
+  "tingling": [
+    "tingling"
+  ],
+  "pins and needles": [
+    "tingling"
+  ],
+  "painful swallowing": [
+    "sore_throat"
+  ],
+  "odynophagia": [
+    "sore_throat"
+  ],
+  "painful urination": [
+    "burning_urination"
+  ],
+  "dysuria": [
+    "burning_urination"
+  ],
+  "menstrual cramps": [
+    "abdominal_pain",
+    "pelvic_pain"
+  ],
+  "dysmenorrhea": [
+    "abdominal_pain",
+    "pelvic_pain"
+  ],
+  "eye pain": [
+    "facial_pain"
+  ],
+  "ear pain": [
+    "facial_pain"
+  ],
+  "otalgia": [
+    "facial_pain"
+  ],
+  "toothache": [
+    "facial_pain"
+  ],
+  "stomach cramps": [
+    "stomach_pain",
+    "abdominal_cramps"
+  ],
+  "vertigo": [
+    "dizziness",
+    "balance_problems"
+  ],
+  "balance problems": [
+    "balance_problems"
+  ],
+  "off balance": [
+    "balance_problems"
+  ],
+  "loss of balance": [
+    "balance_problems"
+  ],
+  "unsteady": [
+    "balance_problems"
+  ],
+  "gastritis": [
+    "stomach_pain",
+    "bloating",
+    "nausea"
+  ],
+  "indigestion": [
+    "bloating",
+    "heartburn",
+    "sour_taste"
+  ],
+  "dyspepsia": [
+    "bloating",
+    "heartburn",
+    "stomach_pain"
+  ],
+  "eczema": [
+    "rash",
+    "skin_rash",
+    "itching"
+  ],
+  "contact dermatitis": [
+    "rash",
+    "skin_rash",
+    "itching",
+    "redness"
+  ],
+  "dermatitis": [
+    "rash",
+    "skin_rash",
+    "itching"
+  ],
+  "tonsillitis": [
+    "sore_throat",
+    "mild_fever",
+    "high_fever"
+  ],
+  "strep throat": [
+    "sore_throat",
+    "high_fever"
+  ],
+  "irritable bowel": [
+    "abdominal_pain",
+    "bloating",
+    "diarrhea"
+  ],
+  "ibs": [
+    "abdominal_pain",
+    "bloating"
+  ],
+  "sciatica": [
+    "back_pain",
+    "leg_pain",
+    "numbness",
+    "tingling"
+  ]
+}

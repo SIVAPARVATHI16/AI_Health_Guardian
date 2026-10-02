@@ -1,0 +1,2 @@
+# Install this only in a Python version supported by your TensorFlow build.
+tensorflow>=2.16,<2.19
